@@ -21,7 +21,7 @@ A primeira tentativa de organizar procedimentos que solucionassem os problemas f
 
 ## **Um novo modelo - Sistema distribuido**
 
-![imagem de sistema distribuido](istema_distribuido.jpeg
+![imagem de sistema distribuido](sistema_distribuido.jpeg)
 
 Agora, o número de elementos de infraestrutura (bancos de dados, cdn, load balancers, frontend, api gateway, backend, etc.) é flexível e atende justamente a demanda: utilizo quantos precisar e tudo está interconectado, compartilhando um caminho de ida e volta de dados.
 
