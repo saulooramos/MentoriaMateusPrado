@@ -8,7 +8,7 @@ Antes de responder esta pergunta, precisamos entender o principal motivo da nece
 
 Sistema centralizado é o conceito que define como os sistemas "mais antigos" funcionam: 
 
-![imagem de sistema centralizado](https://github.com/saulooramos/MentoriaMateusPrado/sistema_centralizado.jpeg)
+![imagem de sistema centralizado](sistema_centralizado.jpeg)
 
 >Mas qual o problema do sistema centralizado?
 
@@ -21,11 +21,11 @@ A primeira tentativa de organizar procedimentos que solucionassem os problemas f
 
 ## **Um novo modelo - Sistema distribuido**
 
-![imagem de sistema distribuido](https://github.com/saulooramos/MentoriaMateusPrado/sistema_distribuido.jpeg
+![imagem de sistema distribuido](istema_distribuido.jpeg
 
 Agora, o número de elementos de infraestrutura (bancos de dados, cdn, load balancers, frontend, api gateway, backend, etc.) é flexível e atende justamente a demanda: utilizo quantos precisar e tudo está interconectado, compartilhando um caminho de ida e volta de dados.
 
-![imagem do caminho da requisição](https://github.com/saulooramos/MentoriaMateusPrado/fluxo_requisicao.jpeg)
+![imagem do caminho da requisição](fluxo_requisicao.jpeg)
 
 Podemos ter agora uma infraestrutura que conte com (exemplo fictício):
 
