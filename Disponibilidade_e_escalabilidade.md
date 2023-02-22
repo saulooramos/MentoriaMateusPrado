@@ -33,7 +33,7 @@ Normalmente o menor SLA individual representa o SLA do sistema.
 
 Para se definir um SLA é necessário utilizar um histórico de tempo disponível como métrica.
 
-## Scaling
+## Scalability
 
 >Qual a ideia?
 
