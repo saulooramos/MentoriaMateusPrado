@@ -2,6 +2,16 @@
 
 SLA (Service Level Agreement) - Disponibilidade acordada em contrato
 
+PoC (Proof of Concept) - Teste utilizado quando não se sabe a causa raíz
+
+RCA (Root cause analisys) - Análise de causa raíz
+
+Scaling out - Escalar horizontalmente
+
+Scaling up - Escalar verticalmente
+
+K8s - Kubernetes
+
 # Dias 2 e 3 - DNS
 
 TLD (Top Level Domain) - Dominio raiz (**.com**)
