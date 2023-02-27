@@ -47,3 +47,27 @@ Record Type - Tipo de registro
 * PTR (Pointer Record) - Um registro de ponteiro fornece o nome de domínio associado a um endereço de IP.
 
 * SPF (Sender Policy Framework) - Entrada de texto para definir o(s) IP(s) que estão auorizado a envir email com aquele domínio
+
+# Dias 4 - OSI e TCP/IP
+
+OSI model - 
+
+* Physical Layer (Camada Física) - Ambiente físico 
+
+* Data Link Layer (Camada de dado) - Define o formato e converte  os dados em binários. Encriptação.
+
+* Network Layer (Camada de rede) - Define o caminho dos dados
+
+* Transport Layer (Camade de transporte) - Responsável por transimitr o dado. TCP/UDP são os protocolos mais utilziados
+
+* Sesssion Layer (Layer de controle de sessão) - Mantém a conexão aberta e controla portas e sessões
+
+* Presentation Layer (Camada de apresentação) - Responsável por converter os dados de binários para um formato legivel por humanos. Decriptação.
+
+* Application Layer (Camada da aplicação) - 
+
+TCP - Garantia de entrega e sequência dos pacotes
+
+UDP - Sem garantia de entrega dos pacotes
+
+WAF (Web Application Firewall) - 
