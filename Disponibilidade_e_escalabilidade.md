@@ -17,7 +17,7 @@ A partir destas duas questões podemos definir Service Level Agreement (SLA), qu
 
 Precisamos deixar claro que microsserviços não são altamente disponíveis por si só e além disso, existem aplicações monolíticas altamente disponíveis como por exemplo o ERP SAP. Ao mesmo tempo, mesmo utilizando Kubernetes (K8s), quando um POD cai e outro assume não resolvemos as questões de disponibilidade caso estejam sendo executados em uma mesma máquina.
 
-![SAP ERP](SAP_ERP.jpeg)
+![SAP ERP](/imagens/SAP_ERP.jpeg)
 
 Um SLA rigoroso traz consigo uma responsabilidade alta pois envolve a empresa toda e, em caso de falhas, há necessidade de reestabelecer o serviço o mais rápido possível, em muitos casos, pressionando as equipes envolvidas.
 
@@ -33,7 +33,7 @@ Normalmente o menor SLA individual representa o SLA do sistema.
 
 Para se definir um SLA é necessário utilizar um histórico de tempo disponível como métrica.
 
-## Scalability
+## Scaling
 
 >Qual a ideia?
 
