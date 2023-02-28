@@ -8,7 +8,7 @@ Antes de responder esta pergunta, precisamos entender o principal motivo da nece
 
 Sistema centralizado é o conceito que define como os sistemas "mais antigos" funcionam: 
 
-![imagem de sistema centralizado](link da imagem)
+![imagem de sistema centralizado](/imagens/sistema_centralizado.jpeg)
 
 >Mas qual o problema do sistema centralizado?
 
