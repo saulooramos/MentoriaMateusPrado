@@ -48,7 +48,7 @@ Record Type - Tipo de registro
 
 * SPF (Sender Policy Framework) - Entrada de texto para definir o(s) IP(s) que estão auorizado a envir email com aquele domínio
 
-# Dias 4 - OSI e TCP/IP
+# Dia 4 - OSI e TCP/IP
 
 OSI model - 
 
@@ -66,8 +66,26 @@ OSI model -
 
 * Application Layer (Camada da aplicação) - 
 
-TCP - Garantia de entrega e sequência dos pacotes
+WAF (Web Application Firewall) - Firewall a nível de software
 
-UDP - Sem garantia de entrega dos pacotes
+# Dia 5 - HTTP
 
-WAF (Web Application Firewall) - 
+TCP Transmission Control Protocol (Protocolo de Controle de Transmição) - Garantia de entrega e sequência dos pacotes
+
+UDP User Datagram Protocol (Protocolo de Datagrama de Usuário) - Sem garantia de entrega dos pacotes
+
+HTTP Hyper Text Transfer Protocol (Protocolo de Transferência de Hipertexto) - 
+
+HTTPS Hypertext Transfer Protocol Secure (Protocolo Seguro de Transferência de Hipertexto) - 
+
+User Agent (Cliente) - Podendo ser humano ou uma aplicação
+
+ESB Enterprise Service Bus (Barramento de Serviço Corporativo) - É um padrão pelo qual um componente de software centralizado realiza integrações a sistemas back-end
+
+Query String (Cadeia de Caracteres de Consulta) - 
+
+SOAP Simple Object Access Protocol (Protocolo Simples de Acesso a Objetos) - 
+
+Rest Representational State Transfer (Transferência de Estado Representacional) - 
+
+Stateless (Protocolo Sem Estado) - É um protocolo de comunicação que considera cada requisição como uma transação independente que não está relacionada a qualquer requisição anterior
