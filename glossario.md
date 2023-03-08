@@ -68,7 +68,7 @@ OSI model -
 
 WAF (Web Application Firewall) - Firewall a nível de software
 
-# Dia 5 - HTTP
+# Dia 5 e 6 - HTTP
 
 TCP Transmission Control Protocol (Protocolo de Controle de Transmição) - Garantia de entrega e sequência dos pacotes
 
@@ -89,3 +89,37 @@ SOAP Simple Object Access Protocol (Protocolo Simples de Acesso a Objetos) -
 Rest Representational State Transfer (Transferência de Estado Representacional) - 
 
 Stateless (Protocolo Sem Estado) - É um protocolo de comunicação que considera cada requisição como uma transação independente que não está relacionada a qualquer requisição anterior
+
+Header (Cabeçalho) - Meta dado
+
+Payload (Carga) - 
+
+HTTP request methods [(Referência)](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods)
+
+ * [GET](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods/GET)
+
+ * [POST](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods/POST)
+
+ * [PUT](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods/PUT)
+
+ * [DELETE](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods/DELETE)
+
+ * [HEAD](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods/HEAD)
+
+ * [OPTIONS](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods/OPTIONS)
+
+ * [TRACE](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods/TRACE)
+
+ * [PATCH](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods/PATCH)
+
+Status code [(Referência)](https://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html):
+
+* [Informational responses (100 – 199)](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status#information_responses)
+
+* [Successful responses (200 – 299)](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status#successful_responses)
+
+* [Redirection messages (300 – 399)](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status#redirection_messages)
+
+* [Client error responses (400 – 499)](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status#client_error_responses)
+
+* [Server error responses (500 – 599)](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status#server_error_responses)
