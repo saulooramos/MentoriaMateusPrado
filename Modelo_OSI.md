@@ -1,4 +1,4 @@
-# Modelo OSI /OSI Model
+# Modelo OSI / OSI Model
 
 ![MODELO OSI](/imagens/modelo-osi.jpg)
 
