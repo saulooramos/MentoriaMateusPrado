@@ -11,3 +11,5 @@ Aula 01: [Sistemas distribuidos](https://github.com/saulooramos/MentoriaMateusPr
 Aula 02: [Disponibilidade e Escalabilidade](https://github.com/saulooramos/MentoriaMateusPrado/blob/main/Disponibilidade_e_escalabilidade.md)
 
 Aula 03: [Domain Name System - DNS](https://github.com/saulooramos/MentoriaMateusPrado/blob/main/DNS.md)
+
+Aula 04: [Modelo OSI](https://github.com/saulooramos/MentoriaMateusPrado/blob/main/Modelo_OSI.md)
