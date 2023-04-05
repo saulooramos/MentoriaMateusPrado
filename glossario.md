@@ -1,4 +1,4 @@
-# Dia 1
+# Geral
 
 SLA (Service Level Agreement) - Disponibilidade acordada em contrato
 
@@ -12,11 +12,15 @@ Scaling up - Escalar verticalmente
 
 K8s - Kubernetes
 
-# Dias 2 e 3 - DNS
+&nbsp;
+
+# DNS
+
+DNS (Domain Name System) -  É um sistema de gerenciamento de nomes de domínio e endereços IP
 
 TLD (Top Level Domain) - Dominio raiz (**.com**)
 
-Domínio - (**exemplo**.com)
+Domínio - Nome do site (**exemplo.com**)
 
 Subdomínio - Ramificações do domínio principal (**www.**exemplo.com)
 
@@ -24,9 +28,9 @@ FQDN (Endpoint) - Full Qualified Domain Name (**www.exemplo.com**)
 
 URI (Uniform Resource Identifier) - Identificador de recursos (www.exemplo.com/**recurso**)
 
-TTL (Time to Live) 
+TTL (Time to Live) - Tempo de vida do registro
 
-Dig (Domain Information Groper)
+Dig (Domain Information Groper) - Ferramenta de linha de comando para consulta de DNS
 
 Record Type - Tipo de registro
 
@@ -48,9 +52,11 @@ Record Type - Tipo de registro
 
 * SPF (Sender Policy Framework) - Entrada de texto para definir o(s) IP(s) que estão auorizado a envir email com aquele domínio
 
-# Dia 4 - OSI e TCP/IP
+&nbsp;
 
-OSI model - 
+# OSI
+
+OSI model (Open System Interconnection) - Modelo de interconexão de sistemas abertos
 
 * Physical Layer (Camada Física) - Ambiente físico 
 
@@ -64,53 +70,59 @@ OSI model -
 
 * Presentation Layer (Camada de apresentação) - Responsável por converter os dados de binários para um formato legivel por humanos. Decriptação.
 
-* Application Layer (Camada da aplicação) - 
+* Application Layer (Camada da aplicação) - Responsável por aplicar as regras de negócio
 
 WAF (Web Application Firewall) - Firewall a nível de software
 
-# Dia 5 e 6 - HTTP
+IP (Internet Protocol) - Protocolo de comunicação entre computadores
+
+&nbsp;
+
+# Protocolos de Comunicação e Segurança (HTTP, HTTPS, TCP, UDP, Stateful, Stateless)
 
 TCP Transmission Control Protocol (Protocolo de Controle de Transmição) - Garantia de entrega e sequência dos pacotes
 
 UDP User Datagram Protocol (Protocolo de Datagrama de Usuário) - Sem garantia de entrega dos pacotes
 
-HTTP Hyper Text Transfer Protocol (Protocolo de Transferência de Hipertexto) - 
+HTTP Hyper Text Transfer Protocol (Protocolo de Transferência de Hipertexto) - Protocolo de comunicação entre cliente e servidor
 
-HTTPS Hypertext Transfer Protocol Secure (Protocolo Seguro de Transferência de Hipertexto) - 
+HTTPS Hypertext Transfer Protocol Secure (Protocolo Seguro de Transferência de Hipertexto) - Protocolo de segurança para HTTP
 
 User Agent (Cliente) - Podendo ser humano ou uma aplicação
 
 ESB Enterprise Service Bus (Barramento de Serviço Corporativo) - É um padrão pelo qual um componente de software centralizado realiza integrações a sistemas back-end
 
-Query String (Cadeia de Caracteres de Consulta) - 
+Query String (Cadeia de Caracteres de Consulta) - Parte da URL que contém os parâmetros de consulta (exemplo: ?id=1)
 
-SOAP Simple Object Access Protocol (Protocolo Simples de Acesso a Objetos) - 
+SOAP Simple Object Access Protocol (Protocolo Simples de Acesso a Objetos) - É um protocolo de comunicação entre aplicações que permite a troca de informações em formato XML entre aplicações que podem estar em diferentes plataformas e linguagens de programação
 
-Rest Representational State Transfer (Transferência de Estado Representacional) - 
+Rest Representational State Transfer (Transferência de Estado Representacional) - É um estilo de arquitetura de software para sistemas distribuídos baseado em transferência de estado, normalmente utilizado para criar Web Services
+
+Stateful (Protocolo Com Estado) - É um protocolo de comunicação que mantém o estado de cada requisição, ou seja, cada requisição é dependente da requisição anterior
 
 Stateless (Protocolo Sem Estado) - É um protocolo de comunicação que considera cada requisição como uma transação independente que não está relacionada a qualquer requisição anterior
 
-Header (Cabeçalho) - Meta dado
+Header (Cabeçalho) - Meta dados da requisição
 
-Payload (Carga) - 
+Payload (Carga) - Dados da requisição
 
 HTTP request methods [(Referência)](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods)
 
- * [GET](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods/GET)
+ * [GET](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods/GET) - O método GET solicita uma representação de um recurso específico. Requisições utilizando o método GET devem retornar apenas dados.
 
- * [POST](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods/POST)
+ * [POST](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods/POST) - O método POST é usado para enviar uma entidade para o recurso especificado, frequentemente causando uma mudança no estado ou efeitos colaterais no servidor.
 
- * [PUT](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods/PUT)
+ * [PUT](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods/PUT) - O método PUT substitui todas as atuais representações do recurso de destino pela carga de dados da requisição.
 
- * [DELETE](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods/DELETE)
+ * [DELETE](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods/DELETE) - O método DELETE remove um recurso específico.
 
- * [HEAD](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods/HEAD)
+ * [HEAD](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods/HEAD) - O método HEAD solicita uma resposta idêntica àquela de uma requisição GET, mas sem o corpo da resposta.
 
- * [OPTIONS](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods/OPTIONS)
+ * [OPTIONS](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods/OPTIONS) - O método OPTIONS é usado para descrever as opções de comunicação com o recurso de destino.
 
- * [TRACE](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods/TRACE)
+ * [TRACE](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods/TRACE) - O método TRACE executa um teste de chamada loop-back junto ao caminho para o recurso de destino.
 
- * [PATCH](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods/PATCH)
+ * [PATCH](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods/PATCH) - O método PATCH é usado para aplicar modificações parciais em um recurso.
 
 Status code [(Referência)](https://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html):
 
@@ -123,3 +135,19 @@ Status code [(Referência)](https://www.w3.org/Protocols/rfc2616/rfc2616-sec10.h
 * [Client error responses (400 – 499)](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status#client_error_responses)
 
 * [Server error responses (500 – 599)](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status#server_error_responses)
+
+&nbsp;
+
+# Load Balancer
+
+Load Balancer - Distribui o tráfego entre os servidores
+
+Round Robin - Distribui o tráfego de forma sequencial
+
+Least Connections - Distribui o tráfego de forma proporcional ao número de conexões
+
+Stick Session - Mantém a sessão do usuário com o mesmo servidor
+
+VIP (Virtual IP) - IP virtual que é atribuído ao Load Balancer e que é utilizado para distribuir o tráfego
+
+Health Check - Verifica se o servidor está disponível
