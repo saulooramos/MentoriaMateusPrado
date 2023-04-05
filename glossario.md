@@ -146,8 +146,40 @@ Round Robin - Distribui o tráfego de forma sequencial
 
 Least Connections - Distribui o tráfego de forma proporcional ao número de conexões
 
+IP Hash - Distribui o tráfego de forma proporcional ao IP do usuário
+
 Stick Session - Mantém a sessão do usuário com o mesmo servidor
 
 VIP (Virtual IP) - IP virtual que é atribuído ao Load Balancer e que é utilizado para distribuir o tráfego
 
 Health Check - Verifica se o servidor está disponível
+
+NGINX - Servidor de aplicação web e proxy reverso
+
+# Home Lab
+
+Home Lab - Ambiente de testes e estudos
+
+AP (Access Point) - Dispositivo que permite a conexão de dispositivos sem fio a uma rede
+
+Router - Dispositivo que permite a conexão de dispositivos com fio a uma rede
+
+Switch - Dispositivo que permite a conexão de dispositivos com fio a uma rede
+
+ISP (Internet Service Provider) - Provedor de serviços de internet
+
+CORS (Cross-Origin Resource Sharing) - Permite que um site acesse recursos de outro site
+
+Access Control - Controle de acesso
+
+PoE (Power Over Ethernet) - Permite a transmissão de energia elétrica através de um cabo de rede
+
+NAS (Network Attached Storage) - Armazenamento de dados em rede
+
+Firewall - Dispositivo que permite a filtragem de pacotes de rede
+
+Patch Panel - Dispositivo que permite a conexão de cabos de rede
+
+Mesh Network - Tecnologia de rede sem fio que permite a conexão de dispositivos sem fio entre si sem a necessidade de um ponto de acesso central (exemplo: Wi-Fi Mesh)
+
+VPN (Virtual Private Network) - Rede privada virtual
