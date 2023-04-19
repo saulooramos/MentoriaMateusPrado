@@ -231,3 +231,29 @@ SLA (Service Level Agreement) - Acordo de nível de serviço
 [Golden Signals](https://sre.google/sre-book/monitoring-distributed-systems/) - Sinais dourados são sinais que indicam o estado de saúde de um sistema (Latência, Tráfego, Erros, Utilização de recursos)
 
 FinOps - Finanças operacionais (práticas que visam reduzir os custos operacionais)
+
+# Object Storage
+
+Object Storage - Armazenamento de objetos
+
+File Storage - Armazenamento de arquivos
+
+Structured File Storage - Armazenamento de arquivos estruturados
+
+Block Storage - Armazenamento de blocos
+
+Object - Objeto que pode ser um arquivo, um diretório ou um link simbólico
+
+Bucket - Balde que é um container para armazenar objetos
+
+Key - Chave que é o nome do objeto
+
+Value - Valor que é o conteúdo do objeto
+
+Metadata - Metadados que são informações sobre o objeto
+
+SDS (Software Defined Storage) - Armazenamento definido por software
+
+SDN (Software Defined Network) - Rede definida por software
+
+NFS (Network File System) - Sistema de arquivos de rede
