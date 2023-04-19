@@ -146,8 +146,114 @@ Round Robin - Distribui o tráfego de forma sequencial
 
 Least Connections - Distribui o tráfego de forma proporcional ao número de conexões
 
+IP Hash - Distribui o tráfego de forma proporcional ao IP do usuário
+
 Stick Session - Mantém a sessão do usuário com o mesmo servidor
 
 VIP (Virtual IP) - IP virtual que é atribuído ao Load Balancer e que é utilizado para distribuir o tráfego
 
 Health Check - Verifica se o servidor está disponível
+
+NGINX - Servidor de aplicação web e proxy reverso
+
+# Home Lab
+
+Home Lab - Ambiente de testes e estudos
+
+AP (Access Point) - Dispositivo que permite a conexão de dispositivos sem fio a uma rede
+
+Router - Dispositivo que permite a conexão de dispositivos com fio a uma rede
+
+Switch - Dispositivo que permite a conexão de dispositivos com fio a uma rede
+
+ISP (Internet Service Provider) - Provedor de serviços de internet
+
+CORS (Cross-Origin Resource Sharing) - Permite que um site acesse recursos de outro site
+
+Access Control - Controle de acesso
+
+PoE (Power Over Ethernet) - Permite a transmissão de energia elétrica através de um cabo de rede
+
+NAS (Network Attached Storage) - Armazenamento de dados em rede
+
+Firewall - Dispositivo que permite a filtragem de pacotes de rede
+
+Patch Panel - Dispositivo que permite a conexão de cabos de rede
+
+Mesh Network - Tecnologia de rede sem fio que permite a conexão de dispositivos sem fio entre si sem a necessidade de um ponto de acesso central (exemplo: Wi-Fi Mesh)
+
+VPN (Virtual Private Network) - Rede privada virtual
+
+# CDN (Content Delivery Network)
+
+CDN (Content Delivery Network) - Rede de distribuição de conteúdo
+
+Edge Server - Servidor de borda
+
+Origin Server - Servidor de origem
+
+Cache - Cache
+
+Cache Key - Chave de cache
+
+Cache Policy - Política de cache
+
+Cache Tag - Tag de cache
+
+Cache Tag Header - Cabeçalho de tag de cache
+
+Cache Tag Query String - Cadeia de caracteres de consulta de tag de cache
+
+Cache Tag Cookie - Cookie de tag de cache
+
+Cache Tag URI - URI de tag de cache
+
+Cache Tag User Agent - Agente de usuário de tag de cache
+
+ASSET (Application Server Side Includes) - Inclusão de conteúdo de um servidor de aplicação no lado do servidor
+
+POP (Point of Presence) - Ponto de presença (localidade onde o CDN possui um servidor)
+
+# Observability (Observabilidade)
+
+Observability (Observabilidade) - Capacidade de observar o comportamento de um sistema
+
+Observability Tools - Ferramentas de observabilidade
+
+Metrics - Métricas
+
+SLO (Service Level Objective) - Objetivo de nível de serviço
+
+SLI (Service Level Indicator) - Indicador de nível de serviço
+
+SLA (Service Level Agreement) - Acordo de nível de serviço
+
+[Golden Signals](https://sre.google/sre-book/monitoring-distributed-systems/) - Sinais dourados são sinais que indicam o estado de saúde de um sistema (Latência, Tráfego, Erros, Utilização de recursos)
+
+FinOps - Finanças operacionais (práticas que visam reduzir os custos operacionais)
+
+# Object Storage
+
+Object Storage - Armazenamento de objetos
+
+File Storage - Armazenamento de arquivos
+
+Structured File Storage - Armazenamento de arquivos estruturados
+
+Block Storage - Armazenamento de blocos
+
+Object - Objeto que pode ser um arquivo, um diretório ou um link simbólico
+
+Bucket - Balde que é um container para armazenar objetos
+
+Key - Chave que é o nome do objeto
+
+Value - Valor que é o conteúdo do objeto
+
+Metadata - Metadados que são informações sobre o objeto
+
+SDS (Software Defined Storage) - Armazenamento definido por software
+
+SDN (Software Defined Network) - Rede definida por software
+
+NFS (Network File System) - Sistema de arquivos de rede
