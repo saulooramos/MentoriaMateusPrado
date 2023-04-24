@@ -17,7 +17,7 @@ BASE: Prevalece Availability (AP) - consistência eventual e fraca (objetivo é 
 recente)
 
 Atomic and consistent (tudo acontece dentro de uma transação) -> relacionado a consistencia e qualidade do dado
-e rollback automático em casos de falhas -> Bancos de dados Relacional
+e rollback automático em casos de falhas
 Use case: banco de dados para transações bancárias
 
 Isolated -> tudo que é feito dentro de uma transação é feito de forma isolada, ou seja, não afeta outras transações
@@ -27,3 +27,8 @@ faço rollback. Toda manipulação de dados dentro de uma transação, o banco g
 
 Em bancos de dados relacionais (SQL), conseguimos entregar ACID.
 
+Basically Available, Soft State (estado maleável controle do dado passa a ser feito do lado da aplicação) 
+e Eventual Consistent.
+
+Em bancos de dados não relacionais (noSQL), entregamos BASE.
+Use case: bancos de dados que precisam de performance e disponibilidade, sem a necessidade de consistência forte.
