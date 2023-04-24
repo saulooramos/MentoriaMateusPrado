@@ -1,0 +1,29 @@
+# Bancos de Dados
+
+(...)
+Teoria de Cap: Deve existir um tradeoff: CP / AP (ou a aplicação vai precisar de consistencia e particionamento ou 
+disponibilidade e particionamento) -> é isso que diz pra voce a melhor opcao ACID/BASE
+>Consistência, Availability e Partition (CAP)
+
+Consistencia fraca: Ganho em disponibilidade, pois para disponibilizar esse dado antes preciso que o dado esteja
+disponível, ou seja, replicado em outros pontos. As vezes você vai fazer uma query e vai cair em uma máquina que
+não está com o dado atualizado -> Aumentar SLA, disponibilidade.
+
+Niveis de consistencia: Fraca (sem garantia de entrega rápida), Eventual (eventualmente disponível rapidamente),
+Forte (garantia de entrega rápida)
+
+ACID: Prevalece Consistência (CP) - consistência forte (objetivo é entregar o dado mais recente)
+BASE: Prevalece Availability (AP) - consistência eventual e fraca (objetivo é disponibilidade, não o dado mais
+recente)
+
+Atomic and consistent (tudo acontece dentro de uma transação) -> relacionado a consistencia e qualidade do dado
+e rollback automático em casos de falhas -> Bancos de dados Relacional
+Use case: banco de dados para transações bancárias
+
+Isolated -> tudo que é feito dentro de uma transação é feito de forma isolada, ou seja, não afeta outras transações
+
+Durable -> A partir do momento em que comecei uma transação, se houver uma falha de rede no meio do caminho,
+faço rollback. Toda manipulação de dados dentro de uma transação, o banco garante não corrompimento de dados.
+
+Em bancos de dados relacionais (SQL), conseguimos entregar ACID.
+
