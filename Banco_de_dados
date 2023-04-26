@@ -30,5 +30,34 @@ Em bancos de dados relacionais (SQL), conseguimos entregar ACID.
 Basically Available, Soft State (estado maleável controle do dado passa a ser feito do lado da aplicação) 
 e Eventual Consistent.
 
+Em bancos relacionais tenho relacionamento entre tabelas, many to many, através de Primary Keys e Foreign keys.
+
+Exemplo:
+
+Tabela cliente      Tabela Orders
+ID - PK             ID - FK
+NAME                CID - FK
+
+Se eu quiser deletar um cliente, se ele tiver pedidos, não consigo (à prova de idiotas)
+
 Em bancos de dados não relacionais (noSQL), entregamos BASE.
 Use case: bancos de dados que precisam de performance e disponibilidade, sem a necessidade de consistência forte.
+
+A engine de um banco noSQL e de um banco SQL é diferente, a forma como eles distribuem dados em clusters é
+diferentes.
+
+BA - Disponibilidade
+
+Soft State: Pela falta de consistência imediata (consistência eventual), os valores podem ser alterados de forma
+mais flexível, ou seja, se eu quiser deletar um cliente, mesmo que ele tenha pedidos relacionados a ele, consigo.
+
+Não nasceu para ter relacionamento entre tabelas. Alguns bancos noSQL tem alguns mecanismos para trabalhar com 
+transações, mas não como o SQL, ou seja, se isso é algo primordial para o negócio, não é uma solução recomendada.
+
+Alguns bancos noSQL, como o Mongo, entregam atomicidade a nível de um único documento.
+
+Use case comum: Redes sociais é um bom exemplo. Consistência eventual é aceitável para o negócio.
+
+Precisamos entender o que a empresa quer fazer, para fazer o banco de dados virar uma solução técnica viável. Todos
+os bancos de dados vão funcionar, mas devemos procurar a melhor solução, de acordo com as características do banco.
+
